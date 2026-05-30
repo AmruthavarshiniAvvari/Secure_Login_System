@@ -1,0 +1,31 @@
+body{
+  background: linear-gradient(to right, #000428, #004e92);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container{
+  flex: 1;
+}
+
+.form-box{
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 420px;
+}
+
+button{
+  transition: 0.3s;
+}
+
+button:hover{
+  transform: scale(1.03);
+}
+
+#emailMessage{
+  font-size: 14px;
+  margin-bottom: 10px;
+}
